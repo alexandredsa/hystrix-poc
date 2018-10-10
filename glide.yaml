@@ -1,0 +1,11 @@
+package: github.com/alexandredsa/hystrix-poc
+import:
+- package: github.com/afex/hystrix-go
+  subpackages:
+  - hystrix
+- package: github.com/labstack/echo
+  version: ^3.3.6
+- package: github.com/sirupsen/logrus
+  version: ^1.1.0
+- package: github.com/eapache/go-resiliency
+  version: ^1.1.0
